@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace RentalKendaraan.Data.Migrations
 {
-    [DbContext(typeof(RentalKendaraan.Models.rental_kendaraanContext))]
+    [DbContext(typeof(RentalKendaraan.Models.RentKendaraanContext))]
     partial class ApplicationDbContextModelSnapshot : ModelSnapshot
     {
         protected override void BuildModel(ModelBuilder modelBuilder)

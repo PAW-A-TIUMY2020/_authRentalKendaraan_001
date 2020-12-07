@@ -9,7 +9,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace RentalKendaraan.Data.Migrations
 {
-    [DbContext(typeof(RentalKendaraan.Models.rental_kendaraanContext))]
+    [DbContext(typeof(RentalKendaraan.Models.RentKendaraanContext))]
     [Migration("00000000000000_CreateIdentitySchema")]
     partial class CreateIdentitySchema
     {
